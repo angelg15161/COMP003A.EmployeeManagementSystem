@@ -7,9 +7,9 @@ public class Employee
 {
     // fields 
     private string _employeeId;
-    private string _firstName;
+    private string _firstName = string.Empty;
     private string _middleName = string.Empty;
-    private string _lastName;
+    private string _lastName = string.Empty;
     private double _salary;
     
     // properties 
